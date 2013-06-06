@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule ^$ index.php?dc_action=home/index [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !\.(css|less|gif|jpg|png|js|ico)$
+RewriteRule ^(.*)$ index.php?dc_action=$1 [QSA,L]

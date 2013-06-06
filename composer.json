@@ -1,0 +1,22 @@
+{
+    "name": "xcezx/dietcake-hello-world",
+    "description": "sample application",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xcezx",
+            "email": "main.xcezx@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git://github.com/xcezx/dietcake.git"
+        }
+    ],
+    "require": {
+        "dietcake/dietcake": "dev-composerize"
+    }
+}
